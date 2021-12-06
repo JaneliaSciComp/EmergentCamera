@@ -58,10 +58,6 @@ private slots:
 
     void on_frameGrabButton_clicked();
 
-    void on_frameRateLineEdit_editingFinished();
-
-    void on_SetCameraButton_clicked();
-
 private:
     Ui::MainWindow *ui;
     cv::VideoCapture cap;
